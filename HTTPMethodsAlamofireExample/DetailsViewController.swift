@@ -9,15 +9,12 @@
 import UIKit
 
 class DetailsViewController: UIViewController {
-    
-    
-    @IBOutlet weak var jsonResultsTextView: UITextView!
-    
+    @IBOutlet var jsonResultsTextView: UITextView!
+
     var jsonResults = ""
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         jsonResultsTextView.text = jsonResults
     }
-
 }
